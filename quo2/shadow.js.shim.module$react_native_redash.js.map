@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_native_redash.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,2CAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,kDAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,0BAAf,GAA4CC,OAAA,CAAQ,qBAAR,CAA5C;AACAC,gDAAA,CAAiDC,OAAjD,GAA2DN,MAA3D,CAAkEC,EAAlE,CAAqEC,IAArE,CAA0EC,0BAA1E;;",
+"sources":["shadow.js.shim.module$react_native_redash.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_redash\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_redash\");\nshadow.js.shim.module$react_native_redash = require(\"react-native-redash\");\nmodule$shadow_js_shim_module$react_native_redash.default = shadow.js.shim.module$react_native_redash;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_native_redash","require","module$shadow_js_shim_module$react_native_redash","default"]
+}

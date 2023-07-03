@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_native_gesture_handler.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,oDAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,2DAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,mCAAf,GAAqDC,OAAA,CAAQ,8BAAR,CAArD;AACAC,yDAAA,CAA0DC,OAA1D,GAAoEN,MAApE,CAA2EC,EAA3E,CAA8EC,IAA9E,CAAmFC,mCAAnF;;",
+"sources":["shadow.js.shim.module$react_native_gesture_handler.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_gesture_handler\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_gesture_handler\");\nshadow.js.shim.module$react_native_gesture_handler = require(\"react-native-gesture-handler\");\nmodule$shadow_js_shim_module$react_native_gesture_handler.default = shadow.js.shim.module$react_native_gesture_handler;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_native_gesture_handler","require","module$shadow_js_shim_module$react_native_gesture_handler","default"]
+}

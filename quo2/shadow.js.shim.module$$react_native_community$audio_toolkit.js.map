@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$$react_native_community$audio_toolkit.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,6DAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,oEAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,4CAAf,GAA8DC,OAAA,CAAQ,uCAAR,CAA9D;AACAC,kEAAA,CAAmEC,OAAnE,GAA6EN,MAA7E,CAAoFC,EAApF,CAAuFC,IAAvF,CAA4FC,4CAA5F;;",
+"sources":["shadow.js.shim.module$$react_native_community$audio_toolkit.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$$react_native_community$audio_toolkit\");\ngoog.provide(\"module$shadow_js_shim_module$$react_native_community$audio_toolkit\");\nshadow.js.shim.module$$react_native_community$audio_toolkit = require(\"@react-native-community/audio-toolkit\");\nmodule$shadow_js_shim_module$$react_native_community$audio_toolkit.default = shadow.js.shim.module$$react_native_community$audio_toolkit;\n"],
+"names":["goog","provide","shadow","js","shim","module$$react_native_community$audio_toolkit","require","module$shadow_js_shim_module$$react_native_community$audio_toolkit","default"]
+}

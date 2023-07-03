@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_native_static_safe_area_insets.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,4DAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,mEAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,2CAAf,GAA6DC,OAAA,CAAQ,sCAAR,CAA7D;AACAC,iEAAA,CAAkEC,OAAlE,GAA4EN,MAA5E,CAAmFC,EAAnF,CAAsFC,IAAtF,CAA2FC,2CAA3F;;",
+"sources":["shadow.js.shim.module$react_native_static_safe_area_insets.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_static_safe_area_insets\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_static_safe_area_insets\");\nshadow.js.shim.module$react_native_static_safe_area_insets = require(\"react-native-static-safe-area-insets\");\nmodule$shadow_js_shim_module$react_native_static_safe_area_insets.default = shadow.js.shim.module$react_native_static_safe_area_insets;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_native_static_safe_area_insets","require","module$shadow_js_shim_module$react_native_static_safe_area_insets","default"]
+}

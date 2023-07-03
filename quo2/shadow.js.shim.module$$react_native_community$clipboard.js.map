@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$$react_native_community$clipboard.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,yDAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,gEAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,wCAAf,GAA0DC,OAAA,CAAQ,mCAAR,CAA1D;AACAC,8DAAA,CAA+DC,OAA/D,GAAyEN,MAAzE,CAAgFC,EAAhF,CAAmFC,IAAnF,CAAwFC,wCAAxF;;",
+"sources":["shadow.js.shim.module$$react_native_community$clipboard.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$$react_native_community$clipboard\");\ngoog.provide(\"module$shadow_js_shim_module$$react_native_community$clipboard\");\nshadow.js.shim.module$$react_native_community$clipboard = require(\"@react-native-community/clipboard\");\nmodule$shadow_js_shim_module$$react_native_community$clipboard.default = shadow.js.shim.module$$react_native_community$clipboard;\n"],
+"names":["goog","provide","shadow","js","shim","module$$react_native_community$clipboard","require","module$shadow_js_shim_module$$react_native_community$clipboard","default"]
+}

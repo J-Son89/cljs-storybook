@@ -1,0 +1,83 @@
+var $CLJS = require("./cljs_env");
+var $jscomp = $CLJS.$jscomp;
+var COMPILED = false;
+require("./cljs.core.js");
+var module$shadow_js_shim_module$rn_emoji_keyboard=$CLJS.module$shadow_js_shim_module$rn_emoji_keyboard || ($CLJS.module$shadow_js_shim_module$rn_emoji_keyboard = {});
+var react_native=$CLJS.react_native || ($CLJS.react_native = {});
+var re_frame=$CLJS.re_frame || ($CLJS.re_frame = {});
+var module$shadow_js_shim_module$react=$CLJS.module$shadow_js_shim_module$react || ($CLJS.module$shadow_js_shim_module$react = {});
+var quo2=$CLJS.quo2 || ($CLJS.quo2 = {});
+var module$shadow_js_shim_module$react_native_haptic_feedback=$CLJS.module$shadow_js_shim_module$react_native_haptic_feedback || ($CLJS.module$shadow_js_shim_module$react_native_haptic_feedback = {});
+var module$shadow_js_shim_module$react_native_reanimated=$CLJS.module$shadow_js_shim_module$react_native_reanimated || ($CLJS.module$shadow_js_shim_module$react_native_reanimated = {});
+var clojure=$CLJS.clojure || ($CLJS.clojure = {});
+var module$shadow_js_shim_module$$react_native_community$masked_view=$CLJS.module$shadow_js_shim_module$$react_native_community$masked_view || ($CLJS.module$shadow_js_shim_module$$react_native_community$masked_view = {});
+var module$shadow_js_shim_module$react_native=$CLJS.module$shadow_js_shim_module$react_native || ($CLJS.module$shadow_js_shim_module$react_native = {});
+var module$shadow_js_shim_module$react_native_background_timer=$CLJS.module$shadow_js_shim_module$react_native_background_timer || ($CLJS.module$shadow_js_shim_module$react_native_background_timer = {});
+var module$shadow_js_shim_module$react_native_static_safe_area_insets=$CLJS.module$shadow_js_shim_module$react_native_static_safe_area_insets || ($CLJS.module$shadow_js_shim_module$react_native_static_safe_area_insets = {});
+var cljs=$CLJS.cljs || ($CLJS.cljs = {});
+var module$shadow_js_shim_module$$react_native_community$slider=$CLJS.module$shadow_js_shim_module$$react_native_community$slider || ($CLJS.module$shadow_js_shim_module$$react_native_community$slider = {});
+var module$shadow_js_shim_module$$react_native_community$audio_toolkit=$CLJS.module$shadow_js_shim_module$$react_native_community$audio_toolkit || ($CLJS.module$shadow_js_shim_module$$react_native_community$audio_toolkit = {});
+var shadow=$CLJS.shadow || ($CLJS.shadow = {});
+var native_module=$CLJS.native_module || ($CLJS.native_module = {});
+var module$shadow_js_shim_module$$react_native_community$clipboard=$CLJS.module$shadow_js_shim_module$$react_native_community$clipboard || ($CLJS.module$shadow_js_shim_module$$react_native_community$clipboard = {});
+var goog=$CLJS.goog || ($CLJS.goog = {});
+var module$shadow_js_shim_module$react_native_fast_image=$CLJS.module$shadow_js_shim_module$react_native_fast_image || ($CLJS.module$shadow_js_shim_module$react_native_fast_image = {});
+var oops=$CLJS.oops || ($CLJS.oops = {});
+var module$shadow_js_shim_module$react_native_hole_view=$CLJS.module$shadow_js_shim_module$react_native_hole_view || ($CLJS.module$shadow_js_shim_module$react_native_hole_view = {});
+var module$shadow_js_shim_module$react_native_linear_gradient=$CLJS.module$shadow_js_shim_module$react_native_linear_gradient || ($CLJS.module$shadow_js_shim_module$react_native_linear_gradient = {});
+var reagent=$CLJS.reagent || ($CLJS.reagent = {});
+var module$shadow_js_shim_module$$react_native_community$hooks=$CLJS.module$shadow_js_shim_module$$react_native_community$hooks || ($CLJS.module$shadow_js_shim_module$$react_native_community$hooks = {});
+var module$shadow_js_shim_module$react_native_draggable_flatlist=$CLJS.module$shadow_js_shim_module$react_native_draggable_flatlist || ($CLJS.module$shadow_js_shim_module$react_native_draggable_flatlist = {});
+var status_im=$CLJS.status_im || ($CLJS.status_im = {});
+var module$shadow_js_shim_module$react_native_redash=$CLJS.module$shadow_js_shim_module$react_native_redash || ($CLJS.module$shadow_js_shim_module$react_native_redash = {});
+var taoensso=$CLJS.taoensso || ($CLJS.taoensso = {});
+var module$shadow_js_shim_module$$react_native_community$blur=$CLJS.module$shadow_js_shim_module$$react_native_community$blur || ($CLJS.module$shadow_js_shim_module$$react_native_community$blur = {});
+var quo=$CLJS.quo || ($CLJS.quo = {});
+var cljs_bean=$CLJS.cljs_bean || ($CLJS.cljs_bean = {});
+var module$shadow_js_shim_module$react_native_navigation=$CLJS.module$shadow_js_shim_module$react_native_navigation || ($CLJS.module$shadow_js_shim_module$react_native_navigation = {});
+var module$shadow_js_shim_module$react_native_image_crop_picker=$CLJS.module$shadow_js_shim_module$react_native_image_crop_picker || ($CLJS.module$shadow_js_shim_module$react_native_image_crop_picker = {});
+var module$shadow_js_shim_module$i18n_js=$CLJS.module$shadow_js_shim_module$i18n_js || ($CLJS.module$shadow_js_shim_module$i18n_js = {});
+var module$shadow_js_shim_module$react_native_gesture_handler=$CLJS.module$shadow_js_shim_module$react_native_gesture_handler || ($CLJS.module$shadow_js_shim_module$react_native_gesture_handler = {});
+var utils=$CLJS.utils || ($CLJS.utils = {});
+var module$shadow_js_shim_module$react_native_redash$lib$module$v1=$CLJS.module$shadow_js_shim_module$react_native_redash$lib$module$v1 || ($CLJS.module$shadow_js_shim_module$react_native_redash$lib$module$v1 = {});
+var module$shadow_js_shim_module$react_native_svg=$CLJS.module$shadow_js_shim_module$react_native_svg || ($CLJS.module$shadow_js_shim_module$react_native_svg = {});
+
+$CLJS.SHADOW_ENV.setLoaded("quo2.foundations.typography.js");
+
+goog.provide('quo2.foundations.typography');
+/**
+ * Check inter dynamic metric https://rsms.me/inter/dynmetrics/
+ */
+quo2.foundations.typography.tracking_fn = (function quo2$foundations$typography$tracking_fn(font_size){
+var a = -0.0223;
+var b = 0.185;
+var c = -0.1745;
+var e = Math.E;
+return (font_size * (a + (b * Math.pow(e,(c * font_size)))));
+});
+quo2.foundations.typography.tracking = cljs.core.memoize.call(null,quo2.foundations.typography.tracking_fn);
+quo2.foundations.typography.heading_1 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(27),new cljs.core.Keyword(null,"line-height","line-height",1870784992),(32),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),quo2.foundations.typography.tracking((27))], null);
+quo2.foundations.typography.heading_2 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(19),new cljs.core.Keyword(null,"line-height","line-height",1870784992),25.65,new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),quo2.foundations.typography.tracking((19))], null);
+quo2.foundations.typography.paragraph_1 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(15),new cljs.core.Keyword(null,"line-height","line-height",1870784992),21.75,new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),quo2.foundations.typography.tracking((15))], null);
+quo2.foundations.typography.paragraph_2 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(13),new cljs.core.Keyword(null,"line-height","line-height",1870784992),18.2,new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),quo2.foundations.typography.tracking((13))], null);
+quo2.foundations.typography.label = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(11),new cljs.core.Keyword(null,"line-height","line-height",1870784992),15.62,new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),quo2.foundations.typography.tracking((11))], null);
+quo2.foundations.typography.font_regular = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"Inter-Regular"], null);
+quo2.foundations.typography.font_medium = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"Inter-Medium"], null);
+quo2.foundations.typography.font_semi_bold = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"Inter-SemiBold"], null);
+quo2.foundations.typography.font_bold = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"Inter-Bold"], null);
+quo2.foundations.typography.monospace = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"InterStatus-Regular"], null);
+quo2.foundations.typography.code = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"UbuntuMono-Regular"], null);
+Object.defineProperty(module.exports, "font_medium", { enumerable: false, get: function() { return quo2.foundations.typography.font_medium; } });
+Object.defineProperty(module.exports, "font_regular", { enumerable: false, get: function() { return quo2.foundations.typography.font_regular; } });
+Object.defineProperty(module.exports, "paragraph_1", { enumerable: false, get: function() { return quo2.foundations.typography.paragraph_1; } });
+Object.defineProperty(module.exports, "tracking_fn", { enumerable: false, get: function() { return quo2.foundations.typography.tracking_fn; } });
+Object.defineProperty(module.exports, "font_bold", { enumerable: false, get: function() { return quo2.foundations.typography.font_bold; } });
+Object.defineProperty(module.exports, "heading_1", { enumerable: false, get: function() { return quo2.foundations.typography.heading_1; } });
+Object.defineProperty(module.exports, "font_semi_bold", { enumerable: false, get: function() { return quo2.foundations.typography.font_semi_bold; } });
+Object.defineProperty(module.exports, "paragraph_2", { enumerable: false, get: function() { return quo2.foundations.typography.paragraph_2; } });
+Object.defineProperty(module.exports, "monospace", { enumerable: false, get: function() { return quo2.foundations.typography.monospace; } });
+Object.defineProperty(module.exports, "heading_2", { enumerable: false, get: function() { return quo2.foundations.typography.heading_2; } });
+Object.defineProperty(module.exports, "label", { enumerable: false, get: function() { return quo2.foundations.typography.label; } });
+Object.defineProperty(module.exports, "tracking", { enumerable: false, get: function() { return quo2.foundations.typography.tracking; } });
+Object.defineProperty(module.exports, "code", { enumerable: false, get: function() { return quo2.foundations.typography.code; } });
+//# sourceMappingURL=quo2.foundations.typography.js.map
