@@ -1,9 +1,0 @@
-{
-"version":3,
-"file":"shadow.js.shim.module$react_native_background_timer.js",
-"lineCount":5,
-"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,qDAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,4DAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,oCAAf,GAAsDC,OAAA,CAAQ,+BAAR,CAAtD;AACAC,0DAAA,CAA2DC,OAA3D,GAAqEN,MAArE,CAA4EC,EAA5E,CAA+EC,IAA/E,CAAoFC,oCAApF;;",
-"sources":["shadow.js.shim.module$react_native_background_timer.js"],
-"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_background_timer\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_background_timer\");\nshadow.js.shim.module$react_native_background_timer = require(\"react-native-background-timer\");\nmodule$shadow_js_shim_module$react_native_background_timer.default = shadow.js.shim.module$react_native_background_timer;\n"],
-"names":["goog","provide","shadow","js","shim","module$react_native_background_timer","require","module$shadow_js_shim_module$react_native_background_timer","default"]
-}

@@ -1,9 +1,0 @@
-{
-"version":3,
-"file":"shadow.js.shim.module$react_native_reanimated.js",
-"lineCount":5,
-"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,+CAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,sDAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,8BAAf,GAAgDC,OAAA,CAAQ,yBAAR,CAAhD;AACAC,oDAAA,CAAqDC,OAArD,GAA+DN,MAA/D,CAAsEC,EAAtE,CAAyEC,IAAzE,CAA8EC,8BAA9E;;",
-"sources":["shadow.js.shim.module$react_native_reanimated.js"],
-"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_reanimated\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_reanimated\");\nshadow.js.shim.module$react_native_reanimated = require(\"react-native-reanimated\");\nmodule$shadow_js_shim_module$react_native_reanimated.default = shadow.js.shim.module$react_native_reanimated;\n"],
-"names":["goog","provide","shadow","js","shim","module$react_native_reanimated","require","module$shadow_js_shim_module$react_native_reanimated","default"]
-}

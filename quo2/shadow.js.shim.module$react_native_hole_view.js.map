@@ -1,9 +1,0 @@
-{
-"version":3,
-"file":"shadow.js.shim.module$react_native_hole_view.js",
-"lineCount":5,
-"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,8CAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,qDAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,6BAAf,GAA+CC,OAAA,CAAQ,wBAAR,CAA/C;AACAC,mDAAA,CAAoDC,OAApD,GAA8DN,MAA9D,CAAqEC,EAArE,CAAwEC,IAAxE,CAA6EC,6BAA7E;;",
-"sources":["shadow.js.shim.module$react_native_hole_view.js"],
-"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_hole_view\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_hole_view\");\nshadow.js.shim.module$react_native_hole_view = require(\"react-native-hole-view\");\nmodule$shadow_js_shim_module$react_native_hole_view.default = shadow.js.shim.module$react_native_hole_view;\n"],
-"names":["goog","provide","shadow","js","shim","module$react_native_hole_view","require","module$shadow_js_shim_module$react_native_hole_view","default"]
-}

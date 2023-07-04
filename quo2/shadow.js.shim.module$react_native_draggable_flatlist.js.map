@@ -1,9 +1,0 @@
-{
-"version":3,
-"file":"shadow.js.shim.module$react_native_draggable_flatlist.js",
-"lineCount":5,
-"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,uDAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,8DAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,sCAAf,GAAwDC,OAAA,CAAQ,iCAAR,CAAxD;AACAC,4DAAA,CAA6DC,OAA7D,GAAuEN,MAAvE,CAA8EC,EAA9E,CAAiFC,IAAjF,CAAsFC,sCAAtF;;",
-"sources":["shadow.js.shim.module$react_native_draggable_flatlist.js"],
-"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_draggable_flatlist\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_draggable_flatlist\");\nshadow.js.shim.module$react_native_draggable_flatlist = require(\"react-native-draggable-flatlist\");\nmodule$shadow_js_shim_module$react_native_draggable_flatlist.default = shadow.js.shim.module$react_native_draggable_flatlist;\n"],
-"names":["goog","provide","shadow","js","shim","module$react_native_draggable_flatlist","require","module$shadow_js_shim_module$react_native_draggable_flatlist","default"]
-}

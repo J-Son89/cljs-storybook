@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  },
+    "build-storybook": "storybook build",
+    "shadow": "shadow-cljs watch mobile",
+    "clean": "sudo find out -name '*.map' -exec bash -c ' f=`${0//-images/}` [[ -f `$f` ]] &&  rm -rf `$f`' {} \\;",
+    "shadow2": "shadow-cljs compile mobile"},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
@@ -30,6 +34,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-native-web": "^0.19.5",
+    "shadow-cljs": "^2.24.1",
     "storybook": "^7.0.23"
   },
   "dependencies": {

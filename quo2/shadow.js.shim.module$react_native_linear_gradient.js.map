@@ -1,9 +1,0 @@
-{
-"version":3,
-"file":"shadow.js.shim.module$react_native_linear_gradient.js",
-"lineCount":5,
-"mappings":"AAAAA,IAAA,CAAKC,OAAL,CAAa,oDAAb,CAAA;AACAD,IAAA,CAAKC,OAAL,CAAa,2DAAb,CAAA;AACAC,MAAA,CAAOC,EAAP,CAAUC,IAAV,CAAeC,mCAAf,GAAqDC,OAAA,CAAQ,8BAAR,CAArD;AACAC,yDAAA,CAA0DC,OAA1D,GAAoEN,MAApE,CAA2EC,EAA3E,CAA8EC,IAA9E,CAAmFC,mCAAnF;;",
-"sources":["shadow.js.shim.module$react_native_linear_gradient.js"],
-"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_native_linear_gradient\");\ngoog.provide(\"module$shadow_js_shim_module$react_native_linear_gradient\");\nshadow.js.shim.module$react_native_linear_gradient = require(\"react-native-linear-gradient\");\nmodule$shadow_js_shim_module$react_native_linear_gradient.default = shadow.js.shim.module$react_native_linear_gradient;\n"],
-"names":["goog","provide","shadow","js","shim","module$react_native_linear_gradient","require","module$shadow_js_shim_module$react_native_linear_gradient","default"]
-}

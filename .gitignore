@@ -3,3 +3,7 @@ node_modules/
 /out/
 /storybook-static/
 /node_modules/
+.clj-kondo/
+/.cache/**
+/.cache/
+.lsp/
